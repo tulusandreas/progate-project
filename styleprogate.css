@@ -1,0 +1,86 @@
+html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+.row{
+  text-align:center;
+}
+  .column {
+    float: left;
+    width: 20%;
+    height:40%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .title {
+    color: grey;
+  }
+
+  .fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5px;
+}
+
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+body{
+  background-color:#f4f6ff;
+  opacity:0.8;
+  font-style:"Alegreya";
+}
+.title{
+  width:100%;
+}
+.intro {
+    padding: 1px;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto ;
+    background-color: rgba(34, 49, 52, 0.9);
+    border-radius: 5px;
+  color:white;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
