@@ -21,6 +21,35 @@ html {
       width: 100%;
       display: block;
     }
+
+    .imgfoto {
+      vertical-align: middle;
+      width: 30px;
+      height: 360px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+}
+  }
+
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+
+    .imgfoto {
+      vertical-align: middle;
+      width: 30px;
+      height: 360px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+}
   }
 
   .card {
@@ -49,6 +78,10 @@ html {
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
   .fa:hover {
@@ -72,6 +105,7 @@ body{
 }
 .title{
   width:100%;
+  font-size: 14px;
 }
 .intro {
     padding: 1px;
@@ -81,10 +115,11 @@ body{
     margin: 0 auto ;
     background-color: rgba(34, 49, 52, 0.9);
     border-radius: 5px;
-  color:white;
-  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color:white;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin-bottom:45px;
 }
 .card img{
-  padding:5% 5%;
+  padding:10% 10%;
 }
+
